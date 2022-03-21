@@ -6,7 +6,7 @@
 /*   By: rlupin <rlupin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 17:44:05 by rlupin            #+#    #+#             */
-/*   Updated: 2022/02/16 16:56:46 by rlupin           ###   ########.fr       */
+/*   Updated: 2022/03/21 16:19:22 by rlupin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,7 @@ int					ft_strncmp(const char *s1, const char *s2, size_t n);
 char				*ft_append(char *start, char c);
 
 int					ft_atoi(const char *str);
+int					ft_recursive_power(int nb, int power);
 
 int					ft_isalpha(int c);
 int					ft_isdigit(int c);
